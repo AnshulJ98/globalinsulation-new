@@ -1,0 +1,29 @@
+---
+import Layout from "../layouts/Layout.astro";
+import data from "../../public/data.json";
+import "../../assets/scss/astro-ecommerce.scss";
+import Navbar from "../components/navbar";
+import CardProduct from "../components/products/cardProduct";
+import ProductFeature from "../components/products/productFeature";
+import ProductOverviewGrid from "../components/products/productOverviewGrid";
+import StoreDoubleColumn from "../components/store/storeDoubleColumn";
+import ReviewSummaryChart from "../components/reviews/reviewSummaryChart";
+
+// filter reviews with ID 01
+let productReviews = data.reviews.filter((x) => x.productID == "01");
+---
+
+<Layout title="About Us">
+  <main>
+    <Navbar />
+    <div class="container mt-5">
+      <ProductFeature
+        title="About Us"
+        images={data.products[4].images}
+        full_description="We are doing INSULATION & WRAPPING for houses,units,office,villa,townhouse"
+        featuresDetails={data.products[4].featuresDetails}
+      />
+      <!-- <StoreDoubleColumn /> -->
+    </div>
+  </main>
+</Layout>

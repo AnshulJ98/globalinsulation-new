@@ -54,7 +54,7 @@ export default function ProductOverview({
               </div>
             }
 
-            {(rating != 0) && 
+            {/* {(rating != 0) && 
             <>
               <h3 className="sr-only">Reviews</h3>
               <div className="d-flex">
@@ -62,12 +62,12 @@ export default function ProductOverview({
                 <span className="ms-3">{reviews} reviews</span>
               </div>
             </>
-            }
+            } */}
             
             {(sizes.size != 0) && 
               <ProductSizes sizes={sizes}/>
             }
-            <button className="btn btn-dark btn-lg" type="submit">Add to cart</button>
+            {/* <button className="btn btn-dark btn-lg" type="submit">Add to cart</button> */}
           </form>
         </div>
       </div>

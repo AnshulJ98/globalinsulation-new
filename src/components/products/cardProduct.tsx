@@ -9,6 +9,7 @@ interface Props {
   color: string;
   colors: string[];
   position: string;
+  url: string;
 }
 
 export default function CardProduct({
@@ -19,7 +20,8 @@ export default function CardProduct({
   price,
   color,
   colors,
-  position
+  position, 
+  url
 }: Props) {
 
   const classList = "card-body " + "text-" + position;
@@ -27,7 +29,7 @@ export default function CardProduct({
   return (
     <>
       <div className="card card-product border mb-5 shadow-xs border-radius-lg">
-        <a href="#">
+        <a href={url}>
           <div className="height-350">
             <img className="w-100 h-100 p-4 rounded-top" src={`${import.meta.env.BASE_URL}${thumb_src}`} alt={thumb_alt} />
           </div>
@@ -56,7 +58,7 @@ export default function CardProduct({
             }
 
             {!(description || colors || color) &&
-              <a href="#" className="font-weight-normal text-body text-sm">Shop Now</a>
+              <a href={url} className="font-weight-normal text-body text-sm">Shop Now</a>
             }
           </div>
         </a>
