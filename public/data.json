@@ -3,23 +3,23 @@
     {
       "id": "01",
       "url":"/ecowool/01",
-      "thumb_src": "/images/Ecowool_Product_Image_1.jpg",
+      "thumb_src": "//images/Ecowool_Product_Image_1.jpg",
       "thumb_alt": "watch-image",
       "images": [
         {
-          "src": "/images/Ecowool_Product_Image_1.jpg",
+          "src": "//images/Ecowool_Product_Image_1.jpg",
           "alt": "first_image"
         },
         {
-          "src": "/public/images/Ecowool_Product_Image_1.jpg",
+          "src": "/public//images/Ecowool_Product_Image_1.jpg",
           "alt": "second_image"
         },
         {
-          "src": "/public/images/Ecowool_Product_Image_1.jpg",
+          "src": "/public//images/Ecowool_Product_Image_1.jpg",
           "alt": "third_image"
         },
         {
-          "src": "/public/images/Ecowool_Product_Image_1.jpg",
+          "src": "/public//images/Ecowool_Product_Image_1.jpg",
           "alt": "fourth_image"
         }
       ],
@@ -68,7 +68,7 @@
     {
       "id": "02",
       "url":"/ecowool/02",
-      "thumb_src": "/images/Ecowool_Product_Image_1.jpg",
+      "thumb_src": "//images/Ecowool_Product_Image_1.jpg",
       "thumb_alt": "watch-image",
       "images": [
         {
@@ -128,7 +128,7 @@
     },
     {
       "id": "03",
-      "thumb_src": "/images/suit-2.jpg",
+      "thumb_src": "//images/suit-2.jpg",
       "thumb_alt": "iMac-image",
       "images": [
         {
@@ -171,7 +171,7 @@
     },
     {
       "id": "04",
-      "thumb_src": "/images/suit-5.jpg",
+      "thumb_src": "//images/suit-5.jpg",
       "thumb_alt": "iPhone_thumb",
       "color": "Blue",
       "title": "iPhone",
@@ -189,19 +189,19 @@
     },
     {
       "id": "05",
-      "thumb_src": "/images/suit-1.jpg",
+      "thumb_src": "//images/suit-1.jpg",
       "thumb_alt": "watch-image",
       "images": [
         {
-          "src": "/images/about-1.jpg",
+          "src": "//images/about-1.jpg",
           "alt": "first_image"
         },
         {
-          "src": "/images/about-2.jpg",
+          "src": "//images/about-2.jpg",
           "alt": "second_image"
         },
         {
-          "src": "/images/about-3.jpg",
+          "src": "//images/about-3.jpg",
           "alt": "third_image"
         },
         {
@@ -249,36 +249,36 @@
   ],
   "categories": [
     {
-      "thumb_src": "/images/Ecowool_Product_Image_1.jpg",
+      "thumb_src": "//images/Ecowool_Product_Image_1.jpg",
       "title": "EcoWool", 
       "url": "/ecowool/"
     },
     {
-      "thumb_src": "/images/fletcher-pink-batts.jpg",
+      "thumb_src": "//images/fletcher-pink-batts.jpg",
       "title": "Fletcher Pink Batts",
       "url": "/fletcherpinkbatts/"
     },
     {
-      "thumb_src": "/images/ametalin.jpg",
+      "thumb_src": "//images/ametalin.jpg",
       "title": "Ametalin",
       "url": "/ametalin/"
     },
     {
-      "thumb_src": "/images/knauf-earthwool.webp",
+      "thumb_src": "//images/knauf-earthwool.webp",
       "title": "Knauf Earthwool",
       "url": "/knaufearthwool/"
     },
     {
-      "thumb_src": "/images/product10.jpg",
+      "thumb_src": "//images/product10.jpg",
       "title": "Living Sofas"
       
     },
     {
-      "thumb_src": "/images/category5.jpg",
+      "thumb_src": "//images/category5.jpg",
       "title": "Chairs by Designers"
     },
     {
-      "thumb_src": "/images/product9.jpg",
+      "thumb_src": "//images/product9.jpg",
       "title": "Home care"
     }
   ],
