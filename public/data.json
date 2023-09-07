@@ -2,7 +2,7 @@
   "products": [
     {
       "id": "01",
-      "url":"/astro-ecommerce/ecowool/01",
+      "url":"/ecowool/01",
       "thumb_src": "/images/Ecowool_Product_Image_1.jpg",
       "thumb_alt": "watch-image",
       "images": [
@@ -67,7 +67,7 @@
     },
     {
       "id": "02",
-      "url":"/astro-ecommerce/ecowool/02",
+      "url":"/ecowool/02",
       "thumb_src": "/images/Ecowool_Product_Image_1.jpg",
       "thumb_alt": "watch-image",
       "images": [
@@ -251,22 +251,22 @@
     {
       "thumb_src": "/images/Ecowool_Product_Image_1.jpg",
       "title": "EcoWool", 
-      "url": "/astro-ecommerce/ecowool/"
+      "url": "/ecowool/"
     },
     {
       "thumb_src": "/images/fletcher-pink-batts.jpg",
       "title": "Fletcher Pink Batts",
-      "url": "/astro-ecommerce/fletcherpinkbatts/"
+      "url": "/fletcherpinkbatts/"
     },
     {
       "thumb_src": "/images/ametalin.jpg",
       "title": "Ametalin",
-      "url": "/astro-ecommerce/ametalin/"
+      "url": "/ametalin/"
     },
     {
       "thumb_src": "/images/knauf-earthwool.webp",
       "title": "Knauf Earthwool",
-      "url": "/astro-ecommerce/knaufearthwool/"
+      "url": "/knaufearthwool/"
     },
     {
       "thumb_src": "/images/product10.jpg",
