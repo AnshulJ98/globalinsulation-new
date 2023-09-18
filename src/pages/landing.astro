@@ -16,14 +16,14 @@ import IncentiveLarge from "../components/incentives/incentiveLarge";
     <Navbar />
     <PromoSectionLarge
       title={"Insulate for coziness"}
-      full_description={data.products[0].full_description}
+      full_description={data.landing.full_description}
       pageHeaderBgImg={"../images/gi-landing-3.jpeg"}
       pageHeaderMinVh="90vh"
     />
     <div class="container my-5">
       <div class="d-block text-center mb-5">
         <h3>Shop by brands</h3>
-        <a class="text-dark font-weight-bold" href="#"
+        <a class="text-dark font-weight-bold" href="/brands"
           >Browse all brands &#62;</a
         >
       </div>
@@ -44,7 +44,7 @@ import IncentiveLarge from "../components/incentives/incentiveLarge";
 
       <!-- <PromoSectionLarge
         title="Basic Starter Pack"
-        full_description={data.products[0].full_description}
+        full_description={data.landing.full_description}
         pageHeaderBgImg={"../images/gi-landing-3.jpeg"}
         pageHeaderMinVh="50vh"
         pageHeaderRadius="1rem"
@@ -55,7 +55,7 @@ import IncentiveLarge from "../components/incentives/incentiveLarge";
           title="Product Features"
           images={data.products[2].images}
           full_description="Society has put up so many boundaries, so many limitations on what’s right and wrong that it’s almost impossible"
-          featuresDetails={data.products[0].featuresDetails}
+          featuresDetails={data.landing.featuresDetails}
         /> -->
         <IncentiveLarge
           order="Global Insulation: Your One-Stop Solution for All Insulation Needs! From coast to coast, we've got you covered! Enjoy our top-notch services state-wide."

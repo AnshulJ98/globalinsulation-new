@@ -10,6 +10,8 @@ interface Props {
   colors: string[];
   position: string;
   url: string;
+  id: number;
+  brand: string;
 }
 
 export default function CardProduct({
@@ -21,7 +23,9 @@ export default function CardProduct({
   color,
   colors,
   position, 
-  url
+  url,
+  id,
+  brand
 }: Props) {
 
   const classList = "card-body " + "text-" + position;
@@ -53,12 +57,12 @@ export default function CardProduct({
             
             {(price) && 
               <h4 className="mb-0 text-lg mt-1 mb-3">
-                ${price.toLocaleString()}
+                {price.toLocaleString()}
               </h4>
             }
 
             {!(description || colors || color) &&
-              <a href={url} className="font-weight-normal text-body text-sm">Shop Now</a>
+              <b href={url} className="font-weight-normal text-body text-sm">Shop Now</b>
             }
           </div>
         </a>

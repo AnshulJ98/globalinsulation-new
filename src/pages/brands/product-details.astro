@@ -1,0 +1,91 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Footer from "../../components/footer";
+import data from "../../../public/data.json";
+import "../../../assets/scss/astro-ecommerce.scss";
+import Navbar from "../../components/navbar";
+import CardProduct from "../../components/products/cardProduct";
+import ProductOverviewGrid from "../../components/products/productOverviewGrid";
+import StoreDoubleColumn from "../../components/store/storeDoubleColumn";
+import ReviewSummaryChart from "../../components/reviews/reviewSummaryChart";
+// filter reviews with ID 01
+
+
+const id = Astro.url.searchParams.get('id')! || '';
+const brand = Astro.url.searchParams.get('brand')! || '';
+const category = Astro.url.searchParams.get('category')! || '';
+
+console.dir( Astro.url.searchParams)
+console.log(id, brand, category)
+console.log(data)
+const productData = data.products[brand][category][id];
+console.log(productData)
+---
+<!-- {console.log(Astro)
+ } -->
+ {<script >
+    const urlSearchParams = new URLSearchParams(window.location.search);
+    const params = Object.fromEntries(urlSearchParams.entries());
+    console.log('params', params);
+
+    </script>
+}<Layout title="Ecowool">
+    
+  <main>
+    <Navbar />
+    <div class="container mt-5">
+      <ProductOverviewGrid
+        colors={productData.colors}
+        images={productData.images}
+        title={productData.title}
+        full_description={productData.full_description}
+        price={productData.price}
+        highlights={productData.highlights}
+        details={productData.details}
+        rating={productData.rating}
+        reviews={productData.reviews}
+        sizes={productData.sizes}
+      />
+
+      <!-- <div class="my-5">
+        <ReviewSummaryChart reviews={productReviews} />
+      </div> -->
+
+      <div class="row">
+        <!-- <h5 class="mb-4">Wall Insulation</h5>
+        {
+          data.products.ecowool.slice(0, 2).map((product) => (
+            <div class="col-md-6 col-lg-3">
+              <CardProduct
+                thumb_src={product.thumb_src}
+                thumb_alt={product.thumb_alt}
+                title={product.title}
+                price={product.price}
+                position="left"
+                url={product.url}
+              />
+            </div>
+          ))
+        } -->
+        <!-- <h5 class="mb-4">Customers also purchased</h5>
+        {
+          data.products.ecowool.map((product) => (
+            <div class="col-md-6 col-lg-3">
+              <CardProduct
+                thumb_src={product.thumb_src}
+                thumb_alt={product.thumb_alt}
+                color={product.color}
+                title={product.title}
+                price={product.price}
+                position="left"
+              />
+            </div>
+          ))
+        } -->
+      </div>
+      <!-- <hr class="dark horizontal my-5" />
+      <StoreDoubleColumn /> -->
+      <Footer />
+    </div>
+  </main>
+</Layout>

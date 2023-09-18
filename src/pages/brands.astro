@@ -1,0 +1,40 @@
+---
+import Layout from "../layouts/Layout.astro";
+import data from "../../public/data.json";
+import "../../assets/scss/astro-ecommerce.scss";
+import CardCategory from "../components/products/cardCategory";
+import ProductFeature from "../components/products/productFeature";
+import Navbar from "../components/navbar";
+import Footer from "../components/footer";
+import TestimonialsFade from "../components/promo/testimonialsFade";
+import PromoSectionLarge from "../components/promo/promoSectionLarge";
+import IncentiveLarge from "../components/incentives/incentiveLarge";
+---
+
+<Layout title="Brands">
+  <main>
+    <Navbar />
+ 
+    <div class="container mt-5">
+      <div class="row">
+        <h5 class="mb-4">Browse All Brands</h5>
+        {
+          data.categories.map((category) => (
+            <div class="col-md-6 col-lg-3 p-2">
+              <CardCategory
+                thumb_src={category.thumb_src}
+                collection={category.collection}
+                title={category.title}
+                url={category.url}
+              />
+            </div>
+          ))
+        }
+      </div>
+
+      
+
+      <Footer />
+    </div>
+  </main>
+</Layout>

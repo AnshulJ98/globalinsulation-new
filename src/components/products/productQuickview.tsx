@@ -52,7 +52,7 @@ export default function ProductQuickview({
                 {(price) && 
                   <>
                     <div className="d-flex">
-                      <h4 className="mb-0">${price.toLocaleString()}</h4>
+                      <h4 className="mb-0">{price.toLocaleString()}</h4>
                       <input className="opacity-0 d-none" defaultValue={price} />
                     </div>
                   </>

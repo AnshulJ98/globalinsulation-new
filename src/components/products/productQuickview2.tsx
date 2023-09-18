@@ -48,7 +48,7 @@ export default function ProductQuickview({
                 </div>
                 {(price) && 
                   <>
-                    <h4 className="text-center">${price.toLocaleString()}</h4>
+                    <h4 className="text-center">{price.toLocaleString()}</h4>
                     <input className="opacity-0 d-none" defaultValue={price} />
                     <div className="d-flex justify-content-center mb-3">
                       <div className="d-flex align-items-center justify-content-center">

@@ -2,7 +2,7 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg blur border-radius-sm top-0 z-index-3 shadow position-sticky py-3 start-0 end-0">
       <div className="container px-1">
-        <a className="navbar-brand font-weight-bolder ms-lg-0 " href="/landing/">Global Insulation</a>
+        <a className="navbar-brand font-weight-bolder ms-lg-0 " href="/">Global Insulation</a>
         <button className="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon mt-2">
             <span className="navbar-toggler-bar bar1"></span>
@@ -32,17 +32,17 @@ const Navbar = () => {
                 Brands
               </a>
               <ul className="dropdown-menu" aria-labelledby="pagesExample">
-                <li><a className="dropdown-item" href="/ametalin/">Ametalin</a></li>
-                <li><a className="dropdown-item" href="/csrbradford/">CSR Bradford</a></li>
-                <li><a className="dropdown-item" href="/knaufearthwool/">Knauf Earthwool</a></li>
-                <li><a className="dropdown-item" href="/fletcherpinkbatts/">Fletcher Pink Batts</a></li>
-                <li><a className="dropdown-item" href="/foilboard/">Foilboard</a></li>
-                <li><a className="dropdown-item" href="/jameshardiefire/">James Hardie Fire</a></li>
-                <li><a className="dropdown-item" href="/kingspan/">Kingspan</a></li>
-                <li><a className="dropdown-item" href="/sisalation/">Sisalation</a></li>
-                <li><a className="dropdown-item" href="/polyestersolutions/">Polyester Solutions</a></li>
-                <li><a className="dropdown-item" href="/pirmax/">PirMax</a></li>
-                <li><a className="dropdown-item" href="/ecowool/">EcoWool</a></li>
+                <li><a className="dropdown-item" href="/brands/ametalin/">Ametalin</a></li>
+                <li><a className="dropdown-item" href="/brands/csrbradford/">CSR Bradford</a></li>
+                <li><a className="dropdown-item" href="/brands/knaufearthwool/">Knauf Earthwool</a></li>
+                <li><a className="dropdown-item" href="/brands/fletcherpinkbatts/">Fletcher Pink Batts</a></li>
+                <li><a className="dropdown-item" href="/brands/foilboard/">Foilboard</a></li>
+                <li><a className="dropdown-item" href="/brands/jameshardiefire/">James Hardie Fire</a></li>
+                <li><a className="dropdown-item" href="/brands/kingspan/">Kingspan</a></li>
+                <li><a className="dropdown-item" href="/brands/sisalation/">Sisalation</a></li>
+                <li><a className="dropdown-item" href="/brands/polyestersolutions/">Polyester Solutions</a></li>
+                <li><a className="dropdown-item" href="/brands/pirmax/">PirMax</a></li>
+                <li><a className="dropdown-item" href="/brands/ecowool/">EcoWool</a></li>
                 {/* <li><a className="dropdown-item" href="/shopping-cart/">Shopping Cart</a></li> */}
               </ul>
             </li>
