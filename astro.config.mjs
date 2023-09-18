@@ -1,5 +1,7 @@
 import { defineConfig } from 'astro/config';
 import lit from '@astrojs/lit';
+import vercel from '@astrojs/vercel/serverless';
+
 // https://astro.build/config
 import react from "@astrojs/react";
 
@@ -7,5 +9,11 @@ import react from "@astrojs/react";
 export default defineConfig({
   integrations: [react(), lit()],
   base: '/',
-  output: 'server'
+  output: 'server',
+  adapter: vercel(),
+  vite: {
+    ssr: {
+      noExternal: ["solid-use", "@xstate/svelte",'whatwg-url']
+    }
+},
 });
