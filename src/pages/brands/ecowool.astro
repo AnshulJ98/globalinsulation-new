@@ -1,5 +1,6 @@
 ---
 import Layout from "../../layouts/Layout.astro";
+import Footer from "../../components/footer";
 import data from "../../../public/data.json";
 import "../../../assets/scss/astro-ecommerce.scss";
 import Navbar from "../../components/navbar";
@@ -50,6 +51,7 @@ let productReviews = data.reviews.filter((x) => x.productID == "01");
             </div>
           ))
         }
+        </div>
         <div class="row">
           <h5 class="mb-4">Ceiling Insulation</h5>
           {
@@ -68,6 +70,7 @@ let productReviews = data.reviews.filter((x) => x.productID == "01");
               </div>
             ))
           }
+          </div>
           <div class="row">
             <h5 class="mb-4">Noise Break Acoustin Insulation</h5>
             {
@@ -102,8 +105,45 @@ let productReviews = data.reviews.filter((x) => x.productID == "01");
           ))
         } -->
       </div>
-      <hr class="dark horizontal my-5" />
-      <StoreDoubleColumn />
+      <div class="row">
+        <h5 class="mb-4">Commercial Insulation</h5>
+        {
+          data.products.ecowool.commercialinsulation.map((product) => (
+            <div class="col-md-6 col-lg-3">
+              <CardProduct
+                thumb_src={product.thumb_src}
+                thumb_alt={product.thumb_alt}
+                title={product.title}
+                price={product.price}
+                position="left"
+                url={product.url}
+                id={product.id}
+                id={product.brand}
+              />
+            </div>
+          ))
+        }
+    <!-- <h5 class="mb-4">Customers also purchased</h5>
+    {
+      data.products.map((product) => (
+        <div class="col-md-6 col-lg-3">
+          <CardProduct
+            thumb_src={product.thumb_src}
+            thumb_alt={product.thumb_alt}
+            color={product.color}
+            title={product.title}
+            price={product.price}
+            position="left"
+          />
+        </div>
+      ))
+    } -->
+  </div>
+  <div class="m-3 px-3">
+      <!-- <hr class="dark horizontal my-5" /> -->
+      <!-- <StoreDoubleColumn /> -->
+      <Footer />
+    </div>
     </div>
   </main>
 </Layout>

@@ -1,5 +1,6 @@
 {
-	"products": {
+	"products": 
+  {
 		"ecowool": 
 			{"wallinsulation":[
         {
@@ -11,60 +12,31 @@
 					{
 						"src": "../../images/Ecowool_Product_Image_1.jpg",
 						"alt": "first_image"
-					},
-					{
-						"src": "../../images/Ecowool_Product_Image_1.jpg",
-						"alt": "second_image"
-					},
-					{
-						"src": "../../images/Ecowool_Product_Image_1.jpg",
-						"alt": "third_image"
-					},
-					{
-						"src": "../../images/Ecowool_Product_Image_1.jpg",
-						"alt": "fourth_image"
 					}
 				],
-				"color": "8 colors",
-				"colors": [
-					"red",
-					"blue",
-					"green"
-				],
-				"title": "EcoWoll Wall Batts",
+				
+				"title": "EcoWool Wall Batts",
 				"price": "Please contact us for pricing.",
-				"description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
-				"full_description": "Wrap your home in warmth and comfort, where every season feels just right.",
-				"details": "There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s my skill. I’m not really specifically talented at anything except for the ability to learn.",
+				"full_description": "ECOWOOL wall batts employ an exciting new binder that incorporates a natural anti formaldehyde ingredient and is low in volatile organic compounds",
+				"details": "Once installed, ECOWOOL wall batts act as a highly effective barrier to heat flow, keeping your building cool during hot weather.  It combines cost efficiency with the highest standard of insulation performance when installed in either wood, cement board  or steel  stud  partition and in ceiling system applications.",
 				"highlights": [
-					"Oil is a primary source of energy for various sectors, including transportation, industries, and residential use.",
-					"Oil is highly versatile and used in the production of a wide range of products. It serves as a raw material for manufacturing plastics",
-					"Oil is a crucial source of petrochemicals, which are used in the production of plastics."
+					"Retains shape and form",
+					"Optimal fibre diameter",
+					"Mould Resistant",
+          "Sustainable Product",
+					"Better fibre network",
+					"Less dusty and less itchy",
+          "Bio-Solubility",
+					"Corrosiveness"
 				],
-				"features": [
-					"Multiple strap configuration",
-					"Water Resistant",
-					"Stainless strap loops",
-					"Ultra-soft 100% cotton"
-				],
-				"rating": 4,
-				"reviews": 117,
-				"size": "Small",
+				
 				"sizes": {
-					"R2.0 430mm": 3,
-					"R2.0 580mm": 0
+          "R1.5 430mm": 1,
+					"R1.5 580mm": 1,
+					"R2.0 430mm": 1,
+					"R2.0 580mm": 1
 				},
-				"data": {
-					"Features": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you.",
-					"Care": "It really matters and then like it really doesn`t matter. What matters is the people who are sparked by it. And the people who are like offended by it, it doesn`t matter. Because it's about motivating the doers. Because I`m here to follow my dreams and inspire other people to follow their dreams, too.",
-					"Shipping": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it?",
-					"Returns": "I always felt like I could do anything. That`s the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can`t do anything, you won`t do anything. I was taught I could do everything."
-				},
-				"featuresDetails": {
-					"Origin": "Oil is a primary source of energy for various sectors, including transportation, industries, and residential use.",
-					"Material": "Oil is highly versatile and used in the production of a wide range of products. It serves as a raw material for manufacturing plastics.",
-					"Dimensions": "Oil is a crucial source of petrochemicals, which are used in the production of plastics."
-				},
+				
 				"stock": true
 			},
 			{
@@ -76,64 +48,36 @@
 					{
 						"src": "../../images/Ecowool_Product_Image_1.jpg",
 						"alt": "first_image"
-					},
-					{
-						"src": "../../images/Ecowool_Product_Image_1.jpg",
-						"alt": "second_image"
-					},
-					{
-						"src": "../../images/Ecowool_Product_Image_1.jpg",
-						"alt": "third_image"
-					},
-					{
-						"src": "../../images/Ecowool_Product_Image_1.jpg",
-						"alt": "fourth_image"
 					}
 				],
-				"color": "8 colors",
-				"colors": [
-					"red",
-					"blue",
-					"green"
-				],
-				"title": "EcoWoll Wall Batts",
+				
+				"title": "EcoWool Acoustic Wall Batts",
 				"price": "Please contact us for pricing.",
-				"description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
-				"full_description": "Wrap your home in warmth and comfort, where every season feels just right.",
-				"details": "There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s my skill. I’m not really specifically talented at anything except for the ability to learn.",
+				"full_description": "ECOWOOL acoustic wall batts employ an exciting new binder that incorporates a natural anti formaldehyde ingredient and is low in volatile organic compounds",
+				"details": "Once installed, ECOWOOL acoustic wall batts act as a highly effective barrier to heat flow, keeping your building cool during hot weather.  It combines cost efficiency with the highest standard of insulation performance when installed in either wood, cement board  or steel  stud  partition and in ceiling system applications.",
 				"highlights": [
-					"Oil is a primary source of energy for various sectors, including transportation, industries, and residential use.",
-					"Oil is highly versatile and used in the production of a wide range of products. It serves as a raw material for manufacturing plastics",
-					"Oil is a crucial source of petrochemicals, which are used in the production of plastics."
+					"Retains shape and form",
+          "Reduce ​​​​​sound transmission",
+					"Optimal fibre diameter",
+					"Mould Resistant",
+          "Sustainable Product",
+					"Better fibre network",
+					"Less dusty and less itchy",
+          "Bio-Solubility",
+					"Corrosiveness"
 				],
-				"features": [
-					"Multiple strap configuration",
-					"Water Resistant",
-					"Stainless strap loops",
-					"Ultra-soft 100% cotton"
-				],
-				"rating": 4,
-				"reviews": 117,
-				"size": "Small",
+				
 				"sizes": {
-					"R2.0 430mm": 3,
-					"R2.0 580mm": 0
+          "R2.0HD 430mm": 1,
+					"R2.0HD 580mm": 1,
+					"R2.5HD 430mm": 1,
+					"R2.5HD 580mm": 1
 				},
-				"data": {
-					"Features": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you.",
-					"Care": "It really matters and then like it really doesn`t matter. What matters is the people who are sparked by it. And the people who are like offended by it, it doesn`t matter. Because it's about motivating the doers. Because I`m here to follow my dreams and inspire other people to follow their dreams, too.",
-					"Shipping": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it?",
-					"Returns": "I always felt like I could do anything. That`s the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can`t do anything, you won`t do anything. I was taught I could do everything."
-				},
-				"featuresDetails": {
-					"Origin": "Oil is a primary source of energy for various sectors, including transportation, industries, and residential use.",
-					"Material": "Oil is highly versatile and used in the production of a wide range of products. It serves as a raw material for manufacturing plastics.",
-					"Dimensions": "Oil is a crucial source of petrochemicals, which are used in the production of plastics."
-				},
+				
 				"stock": true
 			}],
       "ceilinginsulation":[
-        {
+			{
 				"id": "0",
 				"url": "/brands/product-details?id=0&brand=ecowool&category=ceilinginsulation",
 				"thumb_src": "../../images/Ecowool_Product_Image_1.jpg",
@@ -142,269 +86,370 @@
 					{
 						"src": "../../images/Ecowool_Product_Image_1.jpg",
 						"alt": "first_image"
-					},
-					{
-						"src": "../../images/Ecowool_Product_Image_1.jpg",
-						"alt": "second_image"
-					},
-					{
-						"src": "../../images/Ecowool_Product_Image_1.jpg",
-						"alt": "third_image"
-					},
-					{
-						"src": "../../images/Ecowool_Product_Image_1.jpg",
-						"alt": "fourth_image"
 					}
 				],
-				"color": "8 colors",
-				"colors": [
-					"red",
-					"blue",
-					"green"
-				],
-				"title": "EcoWoll Wall Batts",
+				
+				"title": "EcoWool Ceiling Batts",
 				"price": "Please contact us for pricing.",
-				"description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
-				"full_description": "Wrap your home in warmth and comfort, where every season feels just right.",
-				"details": "There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s my skill. I’m not really specifically talented at anything except for the ability to learn.",
+				"full_description": "The ECOWOOL insulation batt range encompasses multiple densities, thicknesses and dimensions to suit typical timber or steel framed construction and to satisfy a broad spectrum of building requirements.",
+				"details": "ECOWOOL utilises SensiTouch Technology, this innovative new binder incorporates a natural anti formaldehyde ingredient and is low in volatile organic compounds, making for a safer and more pleasant installation process.",
 				"highlights": [
-					"Oil is a primary source of energy for various sectors, including transportation, industries, and residential use.",
-					"Oil is highly versatile and used in the production of a wide range of products. It serves as a raw material for manufacturing plastics",
-					"Oil is a crucial source of petrochemicals, which are used in the production of plastics."
+					"AS/NZS 4859.1:2018 COMPLIANT",
+          "Reduce ​​​​​sound transmission",
+					"Firm Friction Fit.",
+					"Mould Resistant",
+          "Hypoallergenic",
+					"SensiTouch Technology",
+					"Soft to touch and less itchy",
+          "Corrosiveness",
+					"Corrosiveness",
+					"Maximum service temperature"
 				],
-				"features": [
-					"Multiple strap configuration",
-					"Water Resistant",
-					"Stainless strap loops",
-					"Ultra-soft 100% cotton"
-				],
-				"rating": 4,
-				"reviews": 117,
-				"size": "Small",
+				
 				"sizes": {
-					"R2.0 430mm": 3,
-					"R2.0 580mm": 0
+          
+					"R2.5 430mm": 1,
+					"R2.5 580mm": 1,
+          "R3.0 430mm": 1,
+					"R3.0 580mm": 1,
+          "R3.5 430mm": 1,
+					"R3.5 580mm": 1,
+          "R4.1 430mm": 1,
+					"R4.1 580mm": 1,
+          "R5.0 430mm": 1,
+					"R5.0 580mm": 1,
+          "R6.0 430mm": 1,
+					"R6.0 580mm": 1
 				},
-				"data": {
-					"Features": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you.",
-					"Care": "It really matters and then like it really doesn`t matter. What matters is the people who are sparked by it. And the people who are like offended by it, it doesn`t matter. Because it's about motivating the doers. Because I`m here to follow my dreams and inspire other people to follow their dreams, too.",
-					"Shipping": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it?",
-					"Returns": "I always felt like I could do anything. That`s the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can`t do anything, you won`t do anything. I was taught I could do everything."
-				},
-				"featuresDetails": {
-					"Origin": "Oil is a primary source of energy for various sectors, including transportation, industries, and residential use.",
-					"Material": "Oil is highly versatile and used in the production of a wide range of products. It serves as a raw material for manufacturing plastics.",
-					"Dimensions": "Oil is a crucial source of petrochemicals, which are used in the production of plastics."
-				},
-				"stock": true
-			},
-			{
-				"id": "1",
-				"url": "/brands/product-details?id=1&brand=ecowool&category=ceilinginsulation",
-				"thumb_src": "../../images/Ecowool_Product_Image_1.jpg",
-				"thumb_alt": "watch-image",
-				"images": [
-					{
-						"src": "../../images/Ecowool_Product_Image_1.jpg",
-						"alt": "first_image"
-					},
-					{
-						"src": "../../images/Ecowool_Product_Image_1.jpg",
-						"alt": "second_image"
-					},
-					{
-						"src": "../../images/Ecowool_Product_Image_1.jpg",
-						"alt": "third_image"
-					},
-					{
-						"src": "../../images/Ecowool_Product_Image_1.jpg",
-						"alt": "fourth_image"
-					}
-				],
-				"color": "8 colors",
-				"colors": [
-					"red",
-					"blue",
-					"green"
-				],
-				"title": "EcoWoll Wall Batts",
-				"price": "Please contact us for pricing.",
-				"description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
-				"full_description": "Wrap your home in warmth and comfort, where every season feels just right.",
-				"details": "There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s my skill. I’m not really specifically talented at anything except for the ability to learn.",
-				"highlights": [
-					"Oil is a primary source of energy for various sectors, including transportation, industries, and residential use.",
-					"Oil is highly versatile and used in the production of a wide range of products. It serves as a raw material for manufacturing plastics",
-					"Oil is a crucial source of petrochemicals, which are used in the production of plastics."
-				],
-				"features": [
-					"Multiple strap configuration",
-					"Water Resistant",
-					"Stainless strap loops",
-					"Ultra-soft 100% cotton"
-				],
-				"rating": 4,
-				"reviews": 117,
-				"size": "Small",
-				"sizes": {
-					"R2.0 430mm": 3,
-					"R2.0 580mm": 0
-				},
-				"data": {
-					"Features": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you.",
-					"Care": "It really matters and then like it really doesn`t matter. What matters is the people who are sparked by it. And the people who are like offended by it, it doesn`t matter. Because it's about motivating the doers. Because I`m here to follow my dreams and inspire other people to follow their dreams, too.",
-					"Shipping": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it?",
-					"Returns": "I always felt like I could do anything. That`s the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can`t do anything, you won`t do anything. I was taught I could do everything."
-				},
-				"featuresDetails": {
-					"Origin": "Oil is a primary source of energy for various sectors, including transportation, industries, and residential use.",
-					"Material": "Oil is highly versatile and used in the production of a wide range of products. It serves as a raw material for manufacturing plastics.",
-					"Dimensions": "Oil is a crucial source of petrochemicals, which are used in the production of plastics."
-				},
+				
 				"stock": true
 			}
 			],
-      "noisebreakacousticinsulation":[{
+      "noisebreakacousticinsulation":[
+        
+			{
 				"id": "0",
 				"url": "/brands/product-details?id=0&brand=ecowool&category=noisebreakacousticinsulation",
-				"thumb_src": "../../images/Ecowool_Product_Image_1.jpg",
+				"thumb_src": "../../images/Ecowool_noise_break.jpeg",
 				"thumb_alt": "watch-image",
 				"images": [
 					{
-						"src": "../../images/Ecowool_Product_Image_1.jpg",
+						"src": "../../images/Ecowool_noise_break.jpeg",
 						"alt": "first_image"
-					},
-					{
-						"src": "../../images/Ecowool_Product_Image_1.jpg",
-						"alt": "second_image"
-					},
-					{
-						"src": "../../images/Ecowool_Product_Image_1.jpg",
-						"alt": "third_image"
-					},
-					{
-						"src": "../../images/Ecowool_Product_Image_1.jpg",
-						"alt": "fourth_image"
 					}
 				],
-				"color": "8 colors",
-				"colors": [
-					"red",
-					"blue",
-					"green"
-				],
-				"title": "EcoWoll Wall Batts",
+				
+				"title": "EcoWool Noise Break",
 				"price": "Please contact us for pricing.",
-				"description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
-				"full_description": "Wrap your home in warmth and comfort, where every season feels just right.",
-				"details": "There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s my skill. I’m not really specifically talented at anything except for the ability to learn.",
+				"full_description": "NoiseBreak® is a high density acoustic insulation, specially engineered for walls and ceilings in residential and commercial buildings",
+				"details": "NoiseBreak® acoustic insulation is the ideal solution for those seeking a peaceful indoor environment. The acoustic wall insulation particularly protects building occupants from the external noise pollutants outside of the building, on top of reducing domestic sound transfer between the spaces within a building.",
 				"highlights": [
-					"Oil is a primary source of energy for various sectors, including transportation, industries, and residential use.",
-					"Oil is highly versatile and used in the production of a wide range of products. It serves as a raw material for manufacturing plastics",
-					"Oil is a crucial source of petrochemicals, which are used in the production of plastics."
+					"Excellent acoustic and thermal performance",
+          "Firm friction fit",
+          "Soft to touch",
+					"Hypoallergenic",
+					"Eco-friendly product",
+          "Non-combustible"
+					
 				],
-				"features": [
-					"Multiple strap configuration",
-					"Water Resistant",
-					"Stainless strap loops",
-					"Ultra-soft 100% cotton"
-				],
-				"rating": 4,
-				"reviews": 117,
-				"size": "Small",
+				
 				"sizes": {
-					"R2.0 430mm": 3,
-					"R2.0 580mm": 0
+          
+					"R1.7 430mm": 1,
+					"R1.7 580mm": 1,
+          "R2.0 430mm": 1,
+					"R2.0 580mm": 1,
+          "R2.5 430mm": 1,
+					"R2.5 580mm": 1,
+          "R2.7 430mm": 1,
+					"R2.7 580mm": 1,
+          "R3.1 430mm": 1,
+					"R3.1 580mm": 1
 				},
-				"data": {
-					"Features": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you.",
-					"Care": "It really matters and then like it really doesn`t matter. What matters is the people who are sparked by it. And the people who are like offended by it, it doesn`t matter. Because it's about motivating the doers. Because I`m here to follow my dreams and inspire other people to follow their dreams, too.",
-					"Shipping": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it?",
-					"Returns": "I always felt like I could do anything. That`s the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can`t do anything, you won`t do anything. I was taught I could do everything."
-				},
-				"featuresDetails": {
-					"Origin": "Oil is a primary source of energy for various sectors, including transportation, industries, and residential use.",
-					"Material": "Oil is highly versatile and used in the production of a wide range of products. It serves as a raw material for manufacturing plastics.",
-					"Dimensions": "Oil is a crucial source of petrochemicals, which are used in the production of plastics."
-				},
-				"stock": true
-			},
-			{
-				"id": "1",
-				"url": "/brands/product-details?id=1&brand=ecowool&category=noisebreakacousticinsulation",
-				"thumb_src": "../../images/Ecowool_Product_Image_1.jpg",
-				"thumb_alt": "watch-image",
-				"images": [
-					{
-						"src": "../../images/Ecowool_Product_Image_1.jpg",
-						"alt": "first_image"
-					},
-					{
-						"src": "../../images/Ecowool_Product_Image_1.jpg",
-						"alt": "second_image"
-					},
-					{
-						"src": "../../images/Ecowool_Product_Image_1.jpg",
-						"alt": "third_image"
-					},
-					{
-						"src": "../../images/Ecowool_Product_Image_1.jpg",
-						"alt": "fourth_image"
-					}
-				],
-				"color": "8 colors",
-				"colors": [
-					"red",
-					"blue",
-					"green"
-				],
-				"title": "EcoWoll Wall Batts",
-				"price": "Please contact us for pricing.",
-				"description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
-				"full_description": "Wrap your home in warmth and comfort, where every season feels just right.",
-				"details": "There’s nothing I really wanted to do in life that I wasn’t able to get good at. That’s my skill. I’m not really specifically talented at anything except for the ability to learn.",
-				"highlights": [
-					"Oil is a primary source of energy for various sectors, including transportation, industries, and residential use.",
-					"Oil is highly versatile and used in the production of a wide range of products. It serves as a raw material for manufacturing plastics",
-					"Oil is a crucial source of petrochemicals, which are used in the production of plastics."
-				],
-				"features": [
-					"Multiple strap configuration",
-					"Water Resistant",
-					"Stainless strap loops",
-					"Ultra-soft 100% cotton"
-				],
-				"rating": 4,
-				"reviews": 117,
-				"size": "Small",
-				"sizes": {
-					"R2.0 430mm": 3,
-					"R2.0 580mm": 0
-				},
-				"data": {
-					"Features": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you.",
-					"Care": "It really matters and then like it really doesn`t matter. What matters is the people who are sparked by it. And the people who are like offended by it, it doesn`t matter. Because it's about motivating the doers. Because I`m here to follow my dreams and inspire other people to follow their dreams, too.",
-					"Shipping": "The time is now for it to be okay to be great. People in this world shun people for being great. For being a bright color. For standing out. But the time is now to be okay to be the greatest you. Would you believe in what you believe in, if you were the only one who believed it?",
-					"Returns": "I always felt like I could do anything. That`s the main thing people are controlled by! Thoughts- their perception of themselves! They're slowed down by their perception of themselves. If you're taught you can`t do anything, you won`t do anything. I was taught I could do everything."
-				},
-				"featuresDetails": {
-					"Origin": "Oil is a primary source of energy for various sectors, including transportation, industries, and residential use.",
-					"Material": "Oil is highly versatile and used in the production of a wide range of products. It serves as a raw material for manufacturing plastics.",
-					"Dimensions": "Oil is a crucial source of petrochemicals, which are used in the production of plastics."
-				},
+				
 				"stock": true
 			}
-			]}
+			],
+      "commercialinsulation":[
+        
+        {
+          "id": "0",
+          "url": "/brands/product-details?id=0&brand=ecowool&category=commercialinsulation",
+          "thumb_src": "../../images/Ecowool_Product_Image_1.jpg",
+          "thumb_alt": "watch-image",
+          "images": [
+            {
+              "src": "../../images/Ecowool_Product_Image_1.jpg",
+              "alt": "first_image"
+            }
+          ],
+          
+          "title": "EcoWool Acoustic Partition Batts",
+          "price": "Please contact us for pricing.",
+          "full_description": "The ECOWOOL insulation batt range encompasses multiple densities, thicknesses and dimensions to suit typical timber or steel framed construction and to satisfy a broad spectrum ofbuilding requirements.",
+				"details": "Once installed, ECOWOOL acoustic wall batts act as a highly effective barrier to heat flow, keeping your building cool during hot weather.  It combines cost efficiency with the highest standard of insulation performance when installed in either wood, cement board  or steel  stud  partition and in ceiling system applications.",
+          "highlights": [
+            "Retains shape and form",
+          "Reduce ​​​​​sound transmission",
+					"Optimal fibre diameter",
+					"Mould Resistant",
+          "Sustainable Product",
+					"Better fibre network",
+					"Less dusty and less itchy",
+          "Bio-Solubility",
+					"Corrosiveness"
+            
+          ],
+          
+          "sizes": {
+            "R0.7 25mm": 1,
+            "R1.2 50mm": 1,
+            "R1.3 50mm": 1,
+            "R1.4 50mm": 1,
+            "R1.5 50mm": 1,
+            "R1.8 75mm": 1,
+            "R1.9 75mm": 1,
+            "R2.1 75mm": 1,
+            "R2.1 90mm": 1,
+            "R2.2 75mm": 1,
+            "R2.2 90mm": 1,
+            "R2.5 110mm": 1,
+            "R2.6 90mm": 1,
+            "R2.7 90mm": 1,
+            "R2.8 100mm": 1,
+            "R3.0 100mm": 1
+          },
+          
+          "stock": true
+        }
+        ]}
 		,
-		"ametalin": [
-
-		],
+		"ametalin": {},
 		"csrbradford": [
 
 		],
-		"knaufearthwool": [
-
-		],
+		"knaufearthwool": {
+      "wallinsulation":[
+      {
+      "id": "0",
+      "url": "/brands/product-details?id=0&brand=knaufearthwool&category=wallinsulation",
+      "thumb_src": "../../images/knaufearthwool_Product_Image_1.png",
+      "thumb_alt": "watch-image",
+      "images": [
+        {
+          "src": "../../images/knaufearthwool_Product_Image_1.png",
+          "alt": "first_image"
+        }
+      ],
+      
+      "title": "Knauf Earthwool Wall Batts",
+      "price": "Please contact us for pricing.",
+      "full_description": "ECOWOOL wall batts employ an exciting new binder that incorporates a natural anti formaldehyde ingredient and is low in volatile organic compounds",
+      "details": "Once installed, ECOWOOL wall batts act as a highly effective barrier to heat flow, keeping your building cool during hot weather.  It combines cost efficiency with the highest standard of insulation performance when installed in either wood, cement board  or steel  stud  partition and in ceiling system applications.",
+      "highlights": [
+        "Retains shape and form",
+        "Optimal fibre diameter",
+        "Mould Resistant",
+        "Sustainable Product",
+        "Better fibre network",
+        "Less dusty and less itchy",
+        "Bio-Solubility",
+        "Corrosiveness"
+      ],
+      
+      "sizes": {
+        "R1.5 430mm": 1,
+        "R1.5 580mm": 1,
+        "R2.0 430mm": 1,
+        "R2.0 580mm": 1
+      },
+      
+      "stock": true
+    },
+    {
+      "id": "1",
+      "url": "/brands/product-details?id=1&brand=knaufearthwool&category=wallinsulation",
+      "thumb_src": "../../images/knaufearthwool_Product_Image_1.png",
+      "thumb_alt": "watch-image",
+      "images": [
+        {
+          "src": "../../images/knaufearthwool_Product_Image_1.png",
+          "alt": "first_image"
+        }
+      ],
+      
+      "title": "Knauf Earthwool Acoustic Wall Batts",
+      "price": "Please contact us for pricing.",
+      "full_description": "ECOWOOL acoustic wall batts employ an exciting new binder that incorporates a natural anti formaldehyde ingredient and is low in volatile organic compounds",
+      "details": "Once installed, ECOWOOL acoustic wall batts act as a highly effective barrier to heat flow, keeping your building cool during hot weather.  It combines cost efficiency with the highest standard of insulation performance when installed in either wood, cement board  or steel  stud  partition and in ceiling system applications.",
+      "highlights": [
+        "Retains shape and form",
+        "Reduce ​​​​​sound transmission",
+        "Optimal fibre diameter",
+        "Mould Resistant",
+        "Sustainable Product",
+        "Better fibre network",
+        "Less dusty and less itchy",
+        "Bio-Solubility",
+        "Corrosiveness"
+      ],
+      
+      "sizes": {
+        "R2.0 430mm": 1,
+        "R2.0 580mm": 1,
+        "R2.5 430mm": 1,
+        "R2.5 580mm": 1
+      },
+      
+      "stock": true
+    }],
+    "ceilinginsulation":[
+    {
+      "id": "0",
+      "url": "/brands/product-details?id=0&brand=knaufearthwool&category=ceilinginsulation",
+      "thumb_src": "../../images/knaufearthwool_Product_Image_1.png",
+      "thumb_alt": "watch-image",
+      "images": [
+        {
+          "src": "../../images/knaufearthwool_Product_Image_1.png",
+          "alt": "first_image"
+        }
+      ],
+      
+      "title": "Knauf Earthwool Ceiling Batts",
+      "price": "Please contact us for pricing.",
+      "full_description": "The ECOWOOL insulation batt range encompasses multiple densities, thicknesses and dimensions to suit typical timber or steel framed construction and to satisfy a broad spectrum of building requirements.",
+      "details": "ECOWOOL utilises SensiTouch Technology, this innovative new binder incorporates a natural anti formaldehyde ingredient and is low in volatile organic compounds, making for a safer and more pleasant installation process.",
+      "highlights": [
+        "AS/NZS 4859.1:2018 COMPLIANT",
+        "Reduce ​​​​​sound transmission",
+        "Firm Friction Fit.",
+        "Mould Resistant",
+        "Hypoallergenic",
+        "SensiTouch Technology",
+        "Soft to touch and less itchy",
+        "Corrosiveness",
+        "Corrosiveness",
+        "Maximum service temperature"
+      ],
+      
+      "sizes": {
+        
+        "R2.5 430mm": 1,
+        "R2.5 580mm": 1,
+        "R3.0 430mm": 1,
+        "R3.0 580mm": 1,
+        "R3.5 430mm": 1,
+        "R3.5 580mm": 1,
+        "R4.1 430mm": 1,
+        "R4.1 580mm": 1,
+        "R5.0 430mm": 1,
+        "R5.0 580mm": 1,
+        "R6.0 430mm": 1,
+        "R6.0 580mm": 1
+      },
+      
+      "stock": true
+    }
+    ],
+    "noisebreakacousticinsulation":[
+      
+    {
+      "id": "0",
+      "url": "/brands/product-details?id=0&brand=knaufearthwool&category=noisebreakacousticinsulation",
+      "thumb_src": "../../images/knaufearthwool_Product_Image_1.png",
+      "thumb_alt": "watch-image",
+      "images": [
+        {
+          "src": "../../images/knaufearthwool_Product_Image_1.png",
+          "alt": "first_image"
+        }
+      ],
+      
+      "title": "Knauf Earthwool Noise Break",
+      "price": "Please contact us for pricing.",
+      "full_description": "NoiseBreak® is a high density acoustic insulation, specially engineered for walls and ceilings in residential and commercial buildings",
+      "details": "NoiseBreak® acoustic insulation is the ideal solution for those seeking a peaceful indoor environment. The acoustic wall insulation particularly protects building occupants from the external noise pollutants outside of the building, on top of reducing domestic sound transfer between the spaces within a building.",
+      "highlights": [
+        "Excellent acoustic and thermal performance",
+        "Firm friction fit",
+        "Soft to touch",
+        "Hypoallergenic",
+        "Eco-friendly product",
+        "Non-combustible"
+        
+      ],
+      
+      "sizes": {
+        
+        "R1.7 430mm": 1,
+        "R1.7 580mm": 1,
+        "R2.0 430mm": 1,
+        "R2.0 580mm": 1,
+        "R2.5 430mm": 1,
+        "R2.5 580mm": 1,
+        "R2.7 430mm": 1,
+        "R2.7 580mm": 1,
+        "R3.1 430mm": 1,
+        "R3.1 580mm": 1
+      },
+      
+      "stock": true
+    }
+    ],
+    "commercialinsulation":[
+      
+      {
+        "id": "0",
+        "url": "/brands/product-details?id=0&brand=knaufearthwool&category=commercialinsulation",
+        "thumb_src": "../../images/knaufearthwool_Product_Image_1.png",
+        "thumb_alt": "watch-image",
+        "images": [
+          {
+            "src": "../../images/knaufearthwool_Product_Image_1.png",
+            "alt": "first_image"
+          }
+        ],
+        
+        "title": "Knauf Earthwool Acoustic Partition Batts",
+        "price": "Please contact us for pricing.",
+        "full_description": "The ECOWOOL insulation batt range encompasses multiple densities, thicknesses and dimensions to suit typical timber or steel framed construction and to satisfy a broad spectrum ofbuilding requirements.",
+      "details": "Once installed, ECOWOOL acoustic wall batts act as a highly effective barrier to heat flow, keeping your building cool during hot weather.  It combines cost efficiency with the highest standard of insulation performance when installed in either wood, cement board  or steel  stud  partition and in ceiling system applications.",
+        "highlights": [
+          "Retains shape and form",
+        "Reduce ​​​​​sound transmission",
+        "Optimal fibre diameter",
+        "Mould Resistant",
+        "Sustainable Product",
+        "Better fibre network",
+        "Less dusty and less itchy",
+        "Bio-Solubility",
+        "Corrosiveness"
+          
+        ],
+        
+        "sizes": {
+          "R0.7 25mm": 1,
+          "R1.2 50mm": 1,
+          "R1.3 50mm": 1,
+          "R1.4 50mm": 1,
+          "R1.5 50mm": 1,
+          "R1.8 75mm": 1,
+          "R1.9 75mm": 1,
+          "R2.1 75mm": 1,
+          "R2.1 90mm": 1,
+          "R2.2 75mm": 1,
+          "R2.2 90mm": 1,
+          "R2.5 110mm": 1,
+          "R2.6 90mm": 1,
+          "R2.7 90mm": 1,
+          "R2.8 100mm": 1,
+          "R3.0 100mm": 1
+        },
+        
+        "stock": true
+      }
+      ]},
 		"fletcherpinkbatts": [
 
 		],
@@ -439,9 +484,9 @@
 			"url": "/brands/fletcherpinkbatts/"
 		},
 		{
-			"thumb_src": "../images/ametalin.jpg",
+			"thumb_src": "../images/knaufearthwool.jpg",
 			"title": "Ametalin",
-			"url": "/brands/ametalin/"
+			"url": "/brands/knaufearthwool/"
 		},
 		{
 			"thumb_src": "../images/knauf-earthwool.webp",
@@ -680,7 +725,7 @@
       "blue",
       "green"
     ],
-    "title": "EcoWoll Wall Batts",
+    "title": "EcoWool Wall Batts",
     "price": "Please contact us for pricing.",
     "description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
     "full_description": "Wrap your home in warmth and comfort, where every season feels just right.",

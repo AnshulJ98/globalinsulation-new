@@ -1,46 +1,34 @@
 ---
-import Layout from "../layouts/Layout.astro";
-import data from "../../public/data.json";
+import Layout from '../layouts/Layout.astro';
+import data from '../../public/data.json';
+import '../../assets/scss/astro-ecommerce.scss';
+import Navbar from '../components/navbar';
+import ComplexNavbar from '../components/complexNavbar';
+import ComplexNavbarDark from '../components/complexNavbarDark';
+import Footer from '../components/footer';
+import ComplexFooter from '../components/complexFooter';
+import CardProduct from '../components/products/cardProduct';
+import CardCategory from '../components/products/cardCategory';
+import ProductOverviewGrid from '../components/products/productOverviewGrid';
+import ProductOverviewGallery from '../components/products/productOverviewGallery';
+import ShoppingCart from '../components/cart/shoppingCart';
+import ShoppingCart2 from '../components/cart/shoppingCart2';
+import ProductQuickview from '../components/products/productQuickview';
+import ProductQuickview2 from '../components/products/productQuickview2';
+import ProductFeature from '../components/products/productFeature';
+import ProductFeature2 from '../components/products/productFeature2';
+import CategoryFilters from '../components/products/categoryFilters';
+import TestimonialsFade from '../components/promo/testimonialsFade';
+import PromoSectionLarge from '../components/promo/promoSectionLarge';
+import CheckoutOrderSummary from '../components/checkout/checkoutOrderSummary';
+import CheckoutMultiStep from '../components/checkout/checkoutMultiStep';
+import ReviewSimple from '../components/reviews/reviewSimple';
+import ReviewSummaryChart from '../components/reviews/reviewSummaryChart';
+import OrderSummaries from '../components/order/orderSummaries';
+import OrderHistory from '../components/order/orderHistory';
+import IncentiveLarge from '../components/incentives/incentiveLarge';
+import IncentiveCols from '../components/incentives/incentiveCols';
 import "../../assets/scss/astro-ecommerce.scss";
-import CardCategory from "../components/products/cardCategory";
-import ProductFeature from "../components/products/productFeature";
-import Navbar from "../components/navbar";
-import Footer from "../components/footer";
-import TestimonialsFade from "../components/promo/testimonialsFade";
-import PromoSectionLarge from "../components/promo/promoSectionLarge";
-import IncentiveLarge from "../components/incentives/incentiveLarge";
-
-// ---
-// import Layout from '../layouts/Layout.astro';
-// import data from '../../public/data.json';
-// import '../../assets/scss/astro-ecommerce.scss';
-// import Navbar from '../components/navbar';
-// import ComplexNavbar from '../components/complexNavbar';
-// import ComplexNavbarDark from '../components/complexNavbarDark';
-// import Footer from '../components/footer';
-// import ComplexFooter from '../components/complexFooter';
-// import CardProduct from '../components/products/cardProduct';
-// import CardCategory from '../components/products/cardCategory';
-// import ProductOverviewGrid from '../components/products/productOverviewGrid';
-// import ProductOverviewGallery from '../components/products/productOverviewGallery';
-// import ShoppingCart from '../components/cart/shoppingCart';
-// import ShoppingCart2 from '../components/cart/shoppingCart2';
-// import ProductQuickview from '../components/products/productQuickview';
-// import ProductQuickview2 from '../components/products/productQuickview2';
-// import ProductFeature from '../components/products/productFeature';
-// import ProductFeature2 from '../components/products/productFeature2';
-// import CategoryFilters from '../components/products/categoryFilters';
-// import TestimonialsFade from '../components/promo/testimonialsFade';
-// import PromoSectionLarge from '../components/promo/promoSectionLarge';
-// import CheckoutOrderSummary from '../components/checkout/checkoutOrderSummary';
-// import CheckoutMultiStep from '../components/checkout/checkoutMultiStep';
-// import ReviewSimple from '../components/reviews/reviewSimple';
-// import ReviewSummaryChart from '../components/reviews/reviewSummaryChart';
-// import OrderSummaries from '../components/order/orderSummaries';
-// import OrderHistory from '../components/order/orderHistory';
-// import IncentiveLarge from '../components/incentives/incentiveLarge';
-// import IncentiveCols from '../components/incentives/incentiveCols';
-// import "../../assets/scss/astro-ecommerce.scss";
 // let cartItems = [];
 // data.shoppingCart.map(id => 
 //   data.products.filter(x => x.id == id).map(x => cartItems.push(x))
@@ -75,8 +63,8 @@ import IncentiveLarge from "../components/incentives/incentiveLarge";
 //   })
 // })
 
-// ---
 ---
+
 <script>
   function toggleHeart(e) {
     e.target.classList.toggle('fas');
@@ -397,7 +385,7 @@ import IncentiveLarge from "../components/incentives/incentiveLarge";
 	</main>
 </Layout> -->
 
-<!-- <Layout title="Global Insulation">
+<Layout title="Global Insulation">
   <main>
     <Navbar />
     <PromoSectionLarge
@@ -428,7 +416,7 @@ import IncentiveLarge from "../components/incentives/incentiveLarge";
         }
       </div>
 
-      <PromoSectionLarge
+      <!-- <PromoSectionLarge
         title="Basic Starter Pack"
         full_description={data.landing.full_description}
         pageHeaderBgImg={"../images/gi-landing-3.jpeg"}
@@ -448,70 +436,6 @@ import IncentiveLarge from "../components/incentives/incentiveLarge";
         />
       </div>
       <div class="mt-5 mb-10">
-        <TestimonialsFade
-          pageHeaderBgImg={"https://images.unsplash.com/photo-1519642918688-7e43b19245d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2676&q=80"}
-          pageHeaderMinVh="50vh"
-        />
-      </div>
-
-      <Footer />
-    </div>
-  </main>
-</Layout> -->
-
-
-
-<Layout title="Global Insulation">
-  <main>
-    <Navbar />
-    <PromoSectionLarge
-      title={"Insulate for coziness"}
-      full_description={data.landing.full_description}
-      pageHeaderBgImg={"../images/gi-landing-3.jpeg"}
-      pageHeaderMinVh="90vh"
-    />
-    <div class="container my-5">
-      <div class="d-block text-center mb-5">
-        <h3>Shop by brands</h3>
-        <a class="text-dark font-weight-bold" href="/brands"
-          >Browse all brands &#62;</a
-        >
-      </div>
-      <div class="row mb-5">
-        {
-          data.categories.slice(0, 4).map((category) => (
-            <div class="col-md-6 col-lg-3">
-              <CardCategory
-                thumb_src={category.thumb_src}
-                collection={category.collection}
-                title={category.title}
-                url={category.url}
-              />
-            </div>
-          ))
-        }
-      </div>
-
-      <!-- <PromoSectionLarge
-        title="Basic Starter Pack"
-        full_description={data.landing.full_description}
-        pageHeaderBgImg={"../images/gi-landing-3.jpeg"}
-        pageHeaderMinVh="50vh"
-        pageHeaderRadius="1rem"
-      /> -->
-
-      <div class="my-5">
-        <!-- <ProductFeature
-          title="Product Features"
-          images={data.products[2].images}
-          full_description="Society has put up so many boundaries, so many limitations on what’s right and wrong that it’s almost impossible"
-          featuresDetails={data.landing.featuresDetails}
-        /> -->
-        <IncentiveLarge
-          order="Global Insulation: Your One-Stop Solution for All Insulation Needs! From coast to coast, we've got you covered! Enjoy our top-notch services state-wide."
-        />
-      </div>
-      <!-- <div class="mt-5 mb-10">
         <TestimonialsFade
           pageHeaderBgImg={"https://images.unsplash.com/photo-1519642918688-7e43b19245d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2676&q=80"}
           pageHeaderMinVh="50vh"
